@@ -23,7 +23,7 @@ from sklearn.metrics import confusion_matrix, roc_auc_score, roc_curve
 # =========================================================
 # CONFIG (must match training script)
 # =========================================================
-
+MODEL_DIR = "hcc_unified_models"
 FEATURES = ['DQ', 'DQN', 'AFP', 'Age', 'Sex_encoded', 'cfDNA']
 
 AFP_BINS   = [-np.inf, 20, np.inf]
